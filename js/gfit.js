@@ -9,10 +9,8 @@ GFit.ready = function()
 
 GFit.init = function()
 {	
-	//alert(GFit.app.width());
 	GFit.width 	= GFit.app.width();
 	GFit.height	= GFit.app.height();
-	//alert("GFit.init");
 }
 
 GFit.resize = function()
@@ -50,4 +48,3 @@ GFit.fit = function(target)
 	$(document).ready(GFit.ready);
 	$(window).resize(GFit.resize);
 }
-
