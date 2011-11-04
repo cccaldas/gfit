@@ -11,6 +11,8 @@ GFit.init = function()
 {	
 	GFit.width 	= GFit.app.width();
 	GFit.height	= GFit.app.height();
+	
+	$("object", app).css("margin-bottom", "-4px");
 }
 
 GFit.resize = function()
